@@ -9,7 +9,8 @@ gemspec
 gem 'jquery-rails'
 gem 'coffee-rails'
 
-gem 'easy_auth-password'
+gem 'easy_auth', :github => 'dockyard/easy_auth'
+gem 'easy_auth-password', :github => 'dockyard/easy_auth-password'
 
 unless ENV['CI']
   if RUBY_PLATFORM =~ /java/
